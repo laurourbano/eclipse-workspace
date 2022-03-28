@@ -7,7 +7,7 @@ public class TestaBanco {
 		lauro.setCpf("041.005.609-01");
 		lauro.setProfissao("Desenvolvedor Java");
 		
-		Conta contaDoLauro = new Conta();
+		Conta contaDoLauro = new Conta(-1,-10);
 		contaDoLauro.deposita(100);
 		
 		//System.out.println(contaDoLauro.getTitular();
